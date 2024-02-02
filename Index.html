@@ -9,9 +9,59 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- cdn for tailwind css and Daisy UI -->
     <title>Flight Booking Airlines</title>
+
+
+    <style></style>
 </head>
 
-<body>
+<body class="bg-white w-full h-[3000px]">
+    <header>
+        <!-- Banner section start -->
+        <div class="hero h-[800px]" style="background-image: url(../Assets/Image/banner.jpg);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+                <div class="">
+                    <!-- logo section -->
+                    <Section class="flex gap-2 pt-8">
+                        <img src="./Assets/Image/logo.png" alt=""
+                            class="w-4/5  md:w-2/5 h-16 -mt-20 rounded-3xl relative left-[10%] md:left-[30%]">
+                    </Section>
+                    <!-- banner pic section -->
+                    <section class="pt-15 pb-8 ">
+                        <img src="./Assets/Image/ss.webp" alt=""
+                            class="w-56 h-56   rounded-full p-1 relative left-[22%] md:left-[35%]">
+                    </section>
+                    <!-- banner text section -->
+                    <p>
+                        <span class="badge bg-green-800 badge-sm relative top-[1px]"> </span>
+                        <span class="text-xl">AGENTS AVAILABLE NOW!</span>
+                    </p>
+
+                    <p class="text-4xl py-5">Call Us Now!</p>
+                    <p class="text-red-900 text-3xl w-full">RESERVE Your Flights, Make Changes, or Cancel Flight!</p>
+
+
+                    <!-- star rating -->
+                    <section class="rating rating-lg pt-5">
+                        <input type="radio" name="rating-8" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-8" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-8" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-8" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-8" class="mask mask-star-2 bg-green-500" checked />
+                    </section>
+                    <section class="pt-5">
+                        <button class="btn btn-primary">Get Started</button>
+                    </section>
+                    <section class="pt-4">
+                        <p><span class="badge bg-green-800 badge-sm relative top-[1px]"></span>
+                            <span class="text-xl"> NO HOLD TIME! NO WAITING!</span>
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- Banner section start -->
+    </header>
 </body>
 
 </html>
